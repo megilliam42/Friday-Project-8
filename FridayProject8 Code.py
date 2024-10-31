@@ -40,6 +40,8 @@ def dataBtpress():
         #prints the database information while labeling what each type of information is 
         for row in values:
                 print("Name:", row[0], "Email:", row[1], "Feedback:", row[2])
+    else:
+         print("Incorrect Password")
             
 #creates the window, title, size and scaling 
 root = Tk()
